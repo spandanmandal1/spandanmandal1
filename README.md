@@ -1,17 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Spandan Mandal, DevOps Engineer. 2+ years running production on AWS EKS. Open to DevOps, Platform and SRE roles. Kolkata, India.">
-</p>
-
-<p align="center">
   <img src="assets/stack-light.svg" alt="AWS, Terraform, Kubernetes, Docker, GitHub Actions, Jenkins, Ansible, Prometheus, Grafana, Linux, Bash, Python, Git">
-</p>
-
-<p align="center">
-  <img src="assets/what-i-build.svg" width="100%" alt="What I build: git push, GitHub Actions with a Trivy CVE gate, Argo CD, AWS EKS on Terraform; then Prometheus and Loki, Alertmanager, a triage bot using Loki logs and a self-hosted LLM, and Slack.">
-</p>
-
-<p align="center">
-  <img src="assets/impact.svg" width="100%" alt="Impact at Questalious, 2024 to 2026: deploys cut from 30 to 10 minutes, monitoring for 8 microservices, 99.9% uptime on the services I owned, 60% fewer failed releases.">
 </p>
 
 | Project | What it does |
