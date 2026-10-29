@@ -1,37 +1,51 @@
-## Hi, I'm Spandan
+<h2 align="center">Spandan Mandal · DevOps Engineer</h2>
 
-DevOps Engineer in Kolkata, India, with 2+ years running production workloads on AWS EKS.
+<p align="center">
+  <img alt="2+ years running production on AWS EKS" src="https://img.shields.io/badge/production-2%2B%20years%20on%20AWS%20EKS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white">
+  <img alt="Open to DevOps, Platform and SRE roles" src="https://img.shields.io/badge/open%20to-DevOps%20·%20Platform%20·%20SRE-2ea44f?style=flat-square">
+  <img alt="Kolkata, India" src="https://img.shields.io/badge/based%20in-Kolkata%2C%20India-555?style=flat-square">
+</p>
 
-Open to DevOps, Platform and SRE roles · available to join immediately.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+    <img alt="AWS, Terraform, Kubernetes, Docker, GitHub Actions, Jenkins, Ansible, Prometheus, Grafana, Linux, Bash, Python, Git" src="assets/stack-light.svg">
+  </picture>
+</p>
 
-**At Questalious (2024–2026)** I built the Terraform modules behind our dev, staging and prod environments,
-cut deployment time from 30 to 10 minutes by parallelising GitHub Actions, ran the DevSecOps checks on every
-service, and set up Prometheus and Grafana monitoring for 8 microservices that I was on call for.
+### What I build
 
-**Now** I'm building observability and self-hosted LLM tooling on Kubernetes.
+```mermaid
+%%{init: {"themeVariables": {"fontSize": "17px"}}}%%
+flowchart TB
+  subgraph shop [ecommerce-eks-gitops]
+    direction LR
+    push([git push]) --> ci[GitHub Actions<br/>Trivy gate] --> argo[Argo CD] --> eks[AWS EKS<br/>Terraform]
+  end
+  subgraph triage [alert-triage-bot]
+    direction LR
+    obs[Prometheus<br/>Loki] --> am[Alertmanager] --> bot[logs + self-hosted<br/>LLM triage] --> slack([Slack])
+  end
+  shop --> triage
+```
+
+### Impact at Questalious (2024–2026)
+
+<p>
+  <img alt="Deploy time cut from 30 to 10 minutes" src="https://img.shields.io/badge/deploys-30%20→%2010%20min-0969da?style=flat-square">
+  <img alt="Monitoring for 8 microservices" src="https://img.shields.io/badge/monitoring-8%20microservices-0969da?style=flat-square">
+  <img alt="99.9% uptime on the services I owned" src="https://img.shields.io/badge/uptime-99.9%25%20on%20my%20services-0969da?style=flat-square">
+  <img alt="Failed releases down 60%" src="https://img.shields.io/badge/failed%20releases-−60%25-0969da?style=flat-square">
+</p>
 
 ### Projects
 
-**[alert-triage-bot](https://gitlab.com/spandanmandal/alert-triage-bot)** · Python, FastAPI, Prometheus, Alertmanager, Loki, Ollama, Helm
+| Project | What it does |
+|---|---|
+| [**alert-triage-bot**](https://gitlab.com/spandanmandal/alert-triage-bot) | Alert → error logs + LLM's likely cause in Slack, 7–9 s |
+| [**ecommerce-eks-gitops**](https://github.com/spandanmandal1/ecommerce-eks-gitops) | 19-service app on EKS, GitOps deploys, CVE-gated CI |
 
-When an alert fires, the bot pulls the matching error logs from Loki, asks a self-hosted LLM for a likely
-cause, and posts both to Slack, 7–9 s after the alert arrives. Handles retries, flapping alerts and a dead LLM
-without losing the alert. Developed on GitLab, mirrored [here](https://github.com/spandanmandal1/alert-triage-bot).
-
-**[ecommerce-eks-gitops](https://github.com/spandanmandal1/ecommerce-eks-gitops)** · AWS EKS, Terraform, Argo CD, GitHub Actions, Trivy
-
-A 19-service e-commerce app on EKS behind an ALB. Terraform for the VPC and cluster, Argo CD for GitOps
-deploys, Prometheus, Grafana and Loki for observability, and a Trivy gate in CI that caught and blocked
-2 critical CVEs.
-
-### Stack
-
-- **Cloud & IaC:** AWS (EKS, EC2, VPC, IAM, S3, RDS, Route 53, CloudWatch), Terraform, Ansible
-- **Containers & CI/CD:** Docker, Kubernetes, Helm, Argo CD, GitHub Actions, Jenkins
-- **Security in CI:** Trivy, SonarQube, Gitleaks, OWASP Dependency-Check, OWASP ZAP
-- **Observability:** Prometheus, Grafana, Loki, Alertmanager, ELK Stack, OpenTelemetry
-- **Scripting & OS:** Bash, Python, Linux
-
-### Elsewhere
-
-[LinkedIn](https://www.linkedin.com/in/spandanmandal) · [GitLab](https://gitlab.com/spandanmandal)
+<p>
+  <a href="https://www.linkedin.com/in/spandanmandal"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-spandanmandal-0A66C2?style=flat-square"></a>
+  <a href="https://gitlab.com/spandanmandal"><img alt="GitLab" src="https://img.shields.io/badge/GitLab-spandanmandal-FC6D26?style=flat-square"></a>
+</p>
