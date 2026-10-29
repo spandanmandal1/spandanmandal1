@@ -16,7 +16,6 @@
 ### What I build
 
 ```mermaid
-%%{init: {"themeVariables": {"fontSize": "17px"}}}%%
 flowchart TB
   subgraph shop [ecommerce-eks-gitops]
     direction LR
