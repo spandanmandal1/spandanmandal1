@@ -13,20 +13,9 @@
   </picture>
 </p>
 
-### What I build
-
-```mermaid
-flowchart TB
-  subgraph shop [ecommerce-eks-gitops]
-    direction LR
-    push([git push]) --> ci[GitHub Actions<br/>Trivy gate] --> argo[Argo CD] --> eks[AWS EKS<br/>Terraform]
-  end
-  subgraph triage [alert-triage-bot]
-    direction LR
-    obs[Prometheus<br/>Loki] --> am[Alertmanager] --> bot[logs + self-hosted<br/>LLM triage] --> slack([Slack])
-  end
-  shop --> triage
-```
+<p align="center">
+  <img src="assets/what-i-build.svg" width="100%" alt="What I build: git push, GitHub Actions with a Trivy CVE gate, Argo CD, AWS EKS on Terraform; then Prometheus and Loki, Alertmanager, a triage bot using Loki logs and a self-hosted LLM, and Slack.">
+</p>
 
 ### Impact at Questalious (2024–2026)
 
