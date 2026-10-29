@@ -1,11 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 450" width="1200" height="450" role="img" aria-label="What I build: git push, GitHub Actions with a Trivy CVE gate, Argo CD and AWS EKS on Terraform to ship; then Prometheus and Loki, Alertmanager, a triage bot using Loki logs and a self-hosted LLM, and Slack to watch it.">
-  <title>What I build</title>
-  <!-- Style adapted from "Risograph Poster" in beydemirfurkan/awesome-github-profile (CC0). -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 450" width="1200" height="450" role="img" aria-label="What I build: git push, GitHub Actions with a Trivy CVE gate, Argo CD, AWS EKS on Terraform; then Prometheus and Loki, Alertmanager, a triage bot using Loki logs and a self-hosted LLM, and Slack.">
+  <title>What I build: git push, GitHub Actions with a Trivy CVE gate, Argo CD, AWS EKS on Terraform; then Prometheus and Loki, Alertmanager, a triage bot using Loki logs and a self-hosted LLM, and Slack.</title>
   <defs>
-    <pattern id="rp-pink-20" width="11" height="11" patternUnits="userSpaceOnUse" patternTransform="rotate(15)"><circle cx="5.5" cy="5.5" r="2.1" fill="#f0338c"/></pattern>
     <pattern id="rp-pink-12" width="11" height="11" patternUnits="userSpaceOnUse" patternTransform="rotate(15)"><circle cx="5.5" cy="5.5" r="1.5" fill="#f0338c"/></pattern>
-    <pattern id="rp-blue-12" width="11" height="11" patternUnits="userSpaceOnUse" patternTransform="rotate(75)"><circle cx="5.5" cy="5.5" r="1.5" fill="#1257a8"/></pattern>
+    <pattern id="rp-pink-20" width="11" height="11" patternUnits="userSpaceOnUse" patternTransform="rotate(15)"><circle cx="5.5" cy="5.5" r="2.1" fill="#f0338c"/></pattern>
     <pattern id="rp-pink-55" width="11" height="11" patternUnits="userSpaceOnUse" patternTransform="rotate(15)"><circle cx="5.5" cy="5.5" r="3.6" fill="#f0338c"/></pattern>
+    <pattern id="rp-blue-12" width="11" height="11" patternUnits="userSpaceOnUse" patternTransform="rotate(75)"><circle cx="5.5" cy="5.5" r="1.5" fill="#1257a8"/></pattern>
     <pattern id="rp-blue-20" width="11" height="11" patternUnits="userSpaceOnUse" patternTransform="rotate(75)"><circle cx="5.5" cy="5.5" r="2.1" fill="#1257a8"/></pattern>
     <pattern id="rp-blue-40" width="11" height="11" patternUnits="userSpaceOnUse" patternTransform="rotate(75)"><circle cx="5.5" cy="5.5" r="3.0" fill="#1257a8"/></pattern>
     <pattern id="rp-blue-90" width="11" height="11" patternUnits="userSpaceOnUse" patternTransform="rotate(75)"><circle cx="5.5" cy="5.5" r="4.9" fill="#1257a8"/></pattern>
@@ -13,86 +12,69 @@
       <feTurbulence type="fractalNoise" baseFrequency="0.62" numOctaves="4" seed="19" result="n"/>
       <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.10  0 0 0 0 0.09  0 0 0 0 0.07  0 0 0 0.55 0"/>
     </filter>
-    <clipPath id="rp-disc"><circle cx="1040" cy="96" r="66"/></clipPath>
   </defs>
-
   <rect width="1200" height="450" fill="#f4efe3"/>
-
-  <g clip-path="url(#rp-disc)">
-    <rect x="974" y="30" width="132" height="132" fill="url(#rp-blue-90)"/>
-    <rect x="974" y="30" width="132" height="66" fill="url(#rp-blue-40)"/>
-  </g>
-
-  <text x="68" y="106" font-family="'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif" font-size="68" font-weight="800" fill="#1257a8" letter-spacing="-3" opacity="0.85">WHAT I BUILD</text>
-  <text x="72" y="103" font-family="'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif" font-size="68" font-weight="800" fill="#f0338c" letter-spacing="-3">WHAT I BUILD</text>
-  <text x="74" y="138" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#1257a8" letter-spacing="6">SHIP IT · THEN WATCH IT</text>
-
-  <text x="72" y="182" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="#f0338c" letter-spacing="3">01 · SHIP — ECOMMERCE-EKS-GITOPS</text>
-  <text x="72" y="304" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="#1257a8" letter-spacing="3">02 · WATCH — ALERT-TRIAGE-BOT</text>
-
+  <clipPath id="d1040"><circle cx="1040" cy="96" r="66"/></clipPath>
+  <g clip-path="url(#d1040)"><rect x="974" y="30" width="132" height="132" fill="url(#rp-blue-90)"/><rect x="974" y="30" width="132" height="66" fill="url(#rp-blue-40)"/></g>
+  <text x="68" y="106" text-anchor="start" font-family="'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif" font-size="68" font-weight="800" fill="#1257a8" letter-spacing="-3" opacity="0.85">WHAT I BUILD</text>
+  <text x="72" y="103" text-anchor="start" font-family="'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif" font-size="68" font-weight="800" fill="#f0338c" letter-spacing="-3">WHAT I BUILD</text>
+  <text x="74" y="138" text-anchor="start" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#1257a8" letter-spacing="6">SHIP IT · THEN WATCH IT</text>
+  <text x="72" y="182" text-anchor="start" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#f0338c" letter-spacing="3">01 · SHIP — ECOMMERCE-EKS-GITOPS</text>
+  <text x="72" y="304" text-anchor="start" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" font-weight="400" fill="#1257a8" letter-spacing="3">02 · WATCH — ALERT-TRIAGE-BOT</text>
   <rect x="72" y="196" width="228" height="60" fill="url(#rp-pink-12)"/>
   <rect x="72" y="196" width="6" height="60" fill="#f0338c"/>
   <text x="189.0" y="223" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif" font-size="19" font-weight="800" fill="#101a2c">git push</text>
-  <text x="189.0" y="242" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#101a2c" opacity="0.8" letter-spacing="2">CODE</text>
+  <text x="189.0" y="242" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#101a2c" letter-spacing="2">CODE</text>
   <line x1="304" y1="226.0" x2="327" y2="226.0" stroke="#1257a8" stroke-width="3"/>
   <polygon points="336,226.0 326,220.0 326,232.0" fill="#1257a8"/>
   <rect x="340" y="196" width="228" height="60" fill="url(#rp-pink-12)"/>
   <rect x="340" y="196" width="6" height="60" fill="#f0338c"/>
   <text x="457.0" y="223" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif" font-size="19" font-weight="800" fill="#101a2c">GitHub Actions</text>
-  <text x="457.0" y="242" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#101a2c" opacity="0.8" letter-spacing="2">TRIVY CVE GATE</text>
+  <text x="457.0" y="242" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#101a2c" letter-spacing="2">TRIVY CVE GATE</text>
   <line x1="572" y1="226.0" x2="595" y2="226.0" stroke="#1257a8" stroke-width="3"/>
   <polygon points="604,226.0 594,220.0 594,232.0" fill="#1257a8"/>
   <rect x="608" y="196" width="228" height="60" fill="url(#rp-pink-12)"/>
   <rect x="608" y="196" width="6" height="60" fill="#f0338c"/>
   <text x="725.0" y="223" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif" font-size="19" font-weight="800" fill="#101a2c">Argo CD</text>
-  <text x="725.0" y="242" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#101a2c" opacity="0.8" letter-spacing="2">GITOPS SYNC</text>
+  <text x="725.0" y="242" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#101a2c" letter-spacing="2">GITOPS SYNC</text>
   <line x1="840" y1="226.0" x2="863" y2="226.0" stroke="#1257a8" stroke-width="3"/>
   <polygon points="872,226.0 862,220.0 862,232.0" fill="#1257a8"/>
   <rect x="876" y="196" width="228" height="60" fill="url(#rp-pink-12)"/>
   <rect x="876" y="196" width="6" height="60" fill="#f0338c"/>
   <text x="993.0" y="223" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif" font-size="19" font-weight="800" fill="#101a2c">AWS EKS</text>
-  <text x="993.0" y="242" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#101a2c" opacity="0.8" letter-spacing="2">TERRAFORM</text>
+  <text x="993.0" y="242" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#101a2c" letter-spacing="2">TERRAFORM</text>
   <rect x="876" y="318" width="228" height="60" fill="url(#rp-blue-12)"/>
   <rect x="876" y="318" width="6" height="60" fill="#1257a8"/>
   <text x="993.0" y="345" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif" font-size="19" font-weight="800" fill="#101a2c">Prometheus + Loki</text>
-  <text x="993.0" y="364" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#101a2c" opacity="0.8" letter-spacing="2">METRICS · LOGS</text>
+  <text x="993.0" y="364" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#101a2c" letter-spacing="2">METRICS · LOGS</text>
   <line x1="872" y1="348.0" x2="849" y2="348.0" stroke="#f0338c" stroke-width="3"/>
   <polygon points="840,348.0 850,342.0 850,354.0" fill="#f0338c"/>
   <rect x="608" y="318" width="228" height="60" fill="url(#rp-blue-12)"/>
   <rect x="608" y="318" width="6" height="60" fill="#1257a8"/>
   <text x="725.0" y="345" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif" font-size="19" font-weight="800" fill="#101a2c">Alertmanager</text>
-  <text x="725.0" y="364" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#101a2c" opacity="0.8" letter-spacing="2">ALERT FIRES</text>
+  <text x="725.0" y="364" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#101a2c" letter-spacing="2">ALERT FIRES</text>
   <line x1="604" y1="348.0" x2="581" y2="348.0" stroke="#f0338c" stroke-width="3"/>
   <polygon points="572,348.0 582,342.0 582,354.0" fill="#f0338c"/>
   <rect x="340" y="318" width="228" height="60" fill="url(#rp-blue-12)"/>
   <rect x="340" y="318" width="6" height="60" fill="#1257a8"/>
   <text x="457.0" y="345" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif" font-size="19" font-weight="800" fill="#101a2c">Triage bot</text>
-  <text x="457.0" y="364" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#101a2c" opacity="0.8" letter-spacing="2">LOKI LOGS + LLM</text>
+  <text x="457.0" y="364" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#101a2c" letter-spacing="2">LOKI LOGS + LLM</text>
   <line x1="336" y1="348.0" x2="313" y2="348.0" stroke="#f0338c" stroke-width="3"/>
   <polygon points="304,348.0 314,342.0 314,354.0" fill="#f0338c"/>
   <rect x="72" y="318" width="228" height="60" fill="url(#rp-blue-12)"/>
   <rect x="72" y="318" width="6" height="60" fill="#1257a8"/>
   <text x="189.0" y="345" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif" font-size="19" font-weight="800" fill="#101a2c">Slack</text>
-  <text x="189.0" y="364" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#101a2c" opacity="0.8" letter-spacing="2">LIKELY CAUSE IN 7–9 S</text>
+  <text x="189.0" y="364" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#101a2c" letter-spacing="2">LIKELY CAUSE IN 7–9 S</text>
   <line x1="993.0" y1="260" x2="993.0" y2="305" stroke="#1257a8" stroke-width="3"/>
   <polygon points="993.0,314 987.0,304 999.0,304" fill="#1257a8"/>
-
+  <g transform="translate(72,400)"><rect x="0" y="0" width="26" height="12" fill="#f0338c"/><rect x="30" y="0" width="26" height="12" fill="#1257a8"/><rect x="60" y="0" width="26" height="12" fill="url(#rp-pink-55)"/><rect x="90" y="0" width="26" height="12" fill="url(#rp-blue-40)"/><rect x="120" y="0" width="26" height="12" fill="url(#rp-pink-20)"/></g>
+  <text x="240" y="410" text-anchor="start" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#5c6474" letter-spacing="2.5">RISO 2-COLOUR · FLUORO PINK + FEDERAL BLUE</text>
+  <text x="1128" y="410" text-anchor="end" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="9.5" font-weight="400" fill="#5c6474" letter-spacing="2.5">SPANDAN MANDAL · DEVOPS ENGINEER</text>
   <g stroke="#16233a" stroke-width="1" opacity="0.65">
     <g transform="translate(36,36)"><line x1="-11" y1="0" x2="11" y2="0"/><line x1="0" y1="-11" x2="0" y2="11"/><circle cx="0" cy="0" r="6.5" fill="none"/></g>
     <g transform="translate(1164,36)"><line x1="-11" y1="0" x2="11" y2="0"/><line x1="0" y1="-11" x2="0" y2="11"/><circle cx="0" cy="0" r="6.5" fill="none"/></g>
     <g transform="translate(36,414)"><line x1="-11" y1="0" x2="11" y2="0"/><line x1="0" y1="-11" x2="0" y2="11"/><circle cx="0" cy="0" r="6.5" fill="none"/></g>
     <g transform="translate(1164,414)"><line x1="-11" y1="0" x2="11" y2="0"/><line x1="0" y1="-11" x2="0" y2="11"/><circle cx="0" cy="0" r="6.5" fill="none"/></g>
   </g>
-
-  <g transform="translate(72,400)">
-    <rect x="0" y="0" width="26" height="12" fill="#f0338c"/>
-    <rect x="30" y="0" width="26" height="12" fill="#1257a8"/>
-    <rect x="60" y="0" width="26" height="12" fill="url(#rp-pink-55)"/>
-    <rect x="90" y="0" width="26" height="12" fill="url(#rp-blue-40)"/>
-    <rect x="120" y="0" width="26" height="12" fill="url(#rp-pink-20)"/>
-  </g>
-  <text x="240" y="410" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="9.5" fill="#5c6474" letter-spacing="2.5">RISO 2-COLOUR · FLUORO PINK + FEDERAL BLUE</text>
-  <text x="1128" y="410" text-anchor="end" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="9.5" fill="#5c6474" letter-spacing="2.5">SPANDAN MANDAL · DEVOPS ENGINEER</text>
-
   <rect width="1200" height="450" filter="url(#rp-grain)" opacity="0.6"/>
 </svg>
